@@ -6,10 +6,12 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
 
+import junit.framework.TestCase;
+
 import org.junit.Assert;
 import org.junit.Test;
 
-public class ComparatorSamples {
+public class ComparatorTest extends TestCase {
 
 	@Test
 	// Old style sort, with Collections
